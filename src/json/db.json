@@ -1,40 +1,41 @@
 {
-    "navijson" : 
-    [
-        {
-        "naviText" : "포트폴리오",
-        "naviLink" : "#portfolio"
-        },
-        {
-        "naviText" : "인물탐방",
-        "naviLink" : "#me"
-        },
-        {
-        "naviText" : "사전인터뷰 및 제안",
-        "naviLink" : "#preInterview"
-        }
-    ],
-    "preinterviewDB" : 
-    {
-        [
-            {
-            "subject" : "0번 배열 제목1",
-            "content" : "일단 만나봅시다! 사장"
-            },
-            {
-            "subject" : "0번 배열 제목2",
-            "content" : "그들이 나에게 요구하는것이 나한테 있는지 여부파악하고 잘 써야합니다."
-            },
-        ],
-        [
-            {
-            "subject" : "1번 배열 제목1",
-            "content" : "일단 만나봅시다! 사장"
-            },
-            {
-            "subject" : "1번 배열 제목2",
-            "content" : "없는 거는 없다 있는거는 있다. 나만 나중에 피곤한 일이 없도록 써야합니다."
-            }
-        ]
-    }
+    "kr" :{ 
+        "navijson" : 
+                    [
+                        {
+                        "naviText" : "포트폴리오",
+                        "naviLink" : "#portfolio"
+                        },
+                        {
+                        "naviText" : "인물탐방",
+                        "naviLink" : "#me"
+                        },
+                        {
+                        "naviText" : "사전인터뷰 및 제안",
+                        "naviLink" : "#preInterview"
+                        }
+                    ],
+        "preinterviewDB" : 
+                        { "predb1" : [
+                                        {
+                                        "subject" : "0번 배열 제목1",
+                                        "content" : "일단 만나봅시다! 사장"
+                                        },
+                                        {
+                                        "subject" : "0번 배열 제목2",
+                                        "content" : "그들이 나에게 요구하는것이 나한테 있는지 여부파악하고 잘 써야합니다."
+                                        }
+                                    ],
+                            "predb2" : [
+                                        {
+                                        "subject" : "1번 배열 제목1",
+                                        "content" : "일단 만나봅시다! 사장"
+                                        },
+                                        {
+                                        "subject" : "1번 배열 제목2",
+                                        "content" : "없는 거는 없다 있는거는 있다. 나만 나중에 피곤한 일이 없도록 써야합니다."
+                                        }
+                                    ]
+                        }
+  }
 }

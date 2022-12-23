@@ -1,7 +1,7 @@
 import dbpreinterview from '../json/db.json'; 
 
 const Preinterview = ( props ) => {
-    const interviewjson = dbpreinterview[props.]
+    const interviewjson = dbpreinterview[props.leng].preinterviewDB[props.objnm]
   
     return(
       
@@ -10,7 +10,7 @@ const Preinterview = ( props ) => {
           <div className="py-5 container-md text-start">
             <ul>
               {
-                interviewjson[props.num].map(function(value, index){
+                interviewjson.map(function(value, index){
                     //this조심할것
                     return(
                       <li key={'interview'+index}>
